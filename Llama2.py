@@ -5,7 +5,7 @@
 # 2. Definir token de API Replicate
 
 import os
-os.environ['REPLICATE_API_TOKEN'] = 'r8_FRW14AR69kzo3zmaeHEoUhj4c7OKayG3h5puK'
+os.environ['REPLICATE_API_TOKEN'] = 'YOUR API KEY'
 # Busque seu Token: https://replicate.com/meta/llama-2-13b-chat?input=python
 
 # 3. Rodar Modelo Llama 2 
