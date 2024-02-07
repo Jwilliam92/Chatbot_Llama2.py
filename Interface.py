@@ -9,7 +9,7 @@ class ChatInterface:
         self.root = root
         self.root.title("🦙💬 Llama 2 Chatbot")
 
-        os.environ['REPLICATE_API_TOKEN'] = 'r8_FRW14AR69kzo3zmaeHEoUhj4c7OKayG3h5puK'
+        os.environ['REPLICATE_API_TOKEN'] = 'YOUR API KEY'
 
         self.pre_prompt = "Você é um assistente útil. Você não responde como 'Usuário' nem finge ser 'Usuário'. Você só responde uma vez como 'Assistente'."
         self.prompt_input = "Você consegue falar português?"
